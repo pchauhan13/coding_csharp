@@ -1,0 +1,13 @@
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.exe
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.deps.json
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.runtimeconfig.json
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.runtimeconfig.dev.json
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.dll
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\bin\Debug\netcoreapp3.1\CodingCSharp.pdb
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.csprojAssemblyReference.cache
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.AssemblyInfoInputs.cache
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.AssemblyInfo.cs
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.csproj.CoreCompileInputs.cache
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.dll
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.pdb
+C:\Users\heyau\Documents\projects\CodingCSharp\CodingCSharp\obj\Debug\netcoreapp3.1\CodingCSharp.genruntimeconfig.cache
