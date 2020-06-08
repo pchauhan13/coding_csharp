@@ -43,20 +43,26 @@ namespace CodingCSharp
 
             //Console.WriteLine(GetMax(5, 3));
 
-            Console.WriteLine("Please enter a day of week:");
-            var day = Console.ReadLine();
+            //Console.WriteLine("Please enter a day of week:");
+            //var day = Console.ReadLine();
 
-            switch (day)
+            //switch (day)
+            //{
+            //    case "Sunday":
+            //        Console.WriteLine("It's a holiday.");
+            //        break;
+            //    case "Saturday":
+            //        Console.WriteLine("It's a weekend.");
+            //        break;
+            //    default:
+            //        Console.WriteLine("It's a work day.");
+            //        break;
+            //}
+
+            int index = 1;
+            while (index < 11)
             {
-                case "Sunday":
-                    Console.WriteLine("It's a holiday.");
-                    break;
-                case "Saturday":
-                    Console.WriteLine("It's a weekend.");
-                    break;
-                default:
-                    Console.WriteLine("It's a work day.");
-                    break;
+                Console.WriteLine(index++);
             }
         }
 
