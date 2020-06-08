@@ -81,27 +81,33 @@ namespace CodingCSharp
 
             //Console.WriteLine(numberGrid[1, 1]);
 
-            try
-            {
-                Console.WriteLine("Enter a number:");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter another number:");
-                int num2 = Convert.ToInt32(Console.ReadLine());
+            //try
+            //{
+            //    Console.WriteLine("Enter a number:");
+            //    int num1 = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("Enter another number:");
+            //    int num2 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine(num1 / num2);
-            }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine("Error: " + e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error: " + e.Message);
-            }
-            finally
-            {
-                Console.WriteLine("Done!");
-            }
+            //    Console.WriteLine(num1 / num2);
+            //}
+            //catch (DivideByZeroException e)
+            //{
+            //    Console.WriteLine("Error: " + e.Message);
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("Error: " + e.Message);
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done!");
+            //}
+
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.pages = 400;
+            book1.author = "J.K. Rowling";
+            Console.WriteLine(book1.ToString());
         }
 
         static int GetMax(int num1, int num2)

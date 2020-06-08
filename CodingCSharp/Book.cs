@@ -14,5 +14,17 @@ namespace CodingCSharp
         {
             Console.WriteLine("Creating a new book object...");
         }
+
+        public Book(string author, string title, int pages)
+        {
+            this.author = author;
+            this.title = title;
+            this.pages = pages;
+        }
+
+        override public string ToString()
+        {
+            return "Title: " + this.title + ", Author: " + this.author + ", Pages: " + this.pages;
+        }
     }
 }
