@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodingCSharp
 {
-    class Book
+    class Book : Object
     {
         private string title;
         public string Title
