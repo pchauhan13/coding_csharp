@@ -59,11 +59,27 @@ namespace CodingCSharp
             //        break;
             //}
 
-            int index = 1;
-            while (index < 11)
+            //int index = 1;
+            //while (index < 11)
+            //{
+            //    Console.WriteLine(index++);
+            //}
+
+            int[] luckyNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+
+            for (int i = 0; i < luckyNumbers.Length; i++)
             {
-                Console.WriteLine(index++);
+                Console.WriteLine(luckyNumbers[i]);
             }
+
+            int[,] numberGrid =
+            {
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 }
+            };
+
+            Console.WriteLine(numberGrid[1, 1]);
         }
 
         static int GetMax(int num1, int num2)
