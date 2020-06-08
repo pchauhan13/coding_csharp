@@ -104,9 +104,9 @@ namespace CodingCSharp
             //}
 
             Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.pages = 400;
-            book1.author = "J.K. Rowling";
+            book1.Title = "Harry Potter";
+            book1.Pages = 400;
+            book1.Author = "J.K. Rowling";
             Console.WriteLine(book1.ToString());
         }
 

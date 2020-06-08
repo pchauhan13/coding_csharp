@@ -6,9 +6,42 @@ namespace CodingCSharp
 {
     class Book
     {
-        public string title;
-        public string author;
-        public int pages;
+        private string title;
+        public string Title
+        {
+            get
+            {
+                return title;
+            }
+            set
+            {
+                title = value;
+            }
+        }
+        private string author;
+        public string Author
+        {
+            get
+            {
+                return author;
+            }
+            set
+            {
+                author = value;
+            }
+        }
+        private int pages;
+        public int Pages
+        {
+            get
+            {
+                return pages;
+            }
+            set
+            {
+                pages = value;
+            }
+        }
 
         public Book()
         {
