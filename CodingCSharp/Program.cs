@@ -21,25 +21,36 @@ namespace CodingCSharp
 
             //Console.WriteLine(cube(5));
 
-            bool isMale = true;
-            bool isTall = false;
+            //bool isMale = true;
+            //bool isTall = false;
 
-            if (isMale && isTall)
+            //if (isMale && isTall)
+            //{
+            //    Console.WriteLine("You are a tall male.");
+            //}
+            //else if (isMale)
+            //{
+            //    Console.WriteLine("You are a male.");
+            //}
+            //else if (isTall)
+            //{
+            //    Console.WriteLine("You are tall.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are niether tall nor a male.");
+            //}
+
+            Console.WriteLine(GetMax(5, 3));
+        }
+
+        static int GetMax(int num1, int num2)
+        {
+            if (num1 > num2)
             {
-                Console.WriteLine("You are a tall male.");
+                return num1;
             }
-            else if (isMale)
-            {
-                Console.WriteLine("You are a male.");
-            }
-            else if (isTall)
-            {
-                Console.WriteLine("You are tall.");
-            }
-            else
-            {
-                Console.WriteLine("You are niether tall nor a male.");
-            }
+            return num2;
         }
 
         static double cube (int number)
