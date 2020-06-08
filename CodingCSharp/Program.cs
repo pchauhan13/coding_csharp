@@ -65,21 +65,28 @@ namespace CodingCSharp
             //    Console.WriteLine(index++);
             //}
 
-            int[] luckyNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //int[] luckyNumbers = { 1, 2, 3, 4, 5, 6, 7 };
 
-            for (int i = 0; i < luckyNumbers.Length; i++)
-            {
-                Console.WriteLine(luckyNumbers[i]);
-            }
+            //for (int i = 0; i < luckyNumbers.Length; i++)
+            //{
+            //    Console.WriteLine(luckyNumbers[i]);
+            //}
 
-            int[,] numberGrid =
-            {
-                { 1, 2 },
-                { 3, 4 },
-                { 5, 6 }
-            };
+            //int[,] numberGrid =
+            //{
+            //    { 1, 2 },
+            //    { 3, 4 },
+            //    { 5, 6 }
+            //};
 
-            Console.WriteLine(numberGrid[1, 1]);
+            //Console.WriteLine(numberGrid[1, 1]);
+
+            Console.WriteLine("Enter a number:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter another number:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 / num2);
         }
 
         static int GetMax(int num1, int num2)
