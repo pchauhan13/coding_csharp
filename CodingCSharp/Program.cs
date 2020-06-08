@@ -90,6 +90,10 @@ namespace CodingCSharp
 
                 Console.WriteLine(num1 / num2);
             }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
             catch (Exception e)
             {
                 Console.WriteLine("Error: " + e.Message);
