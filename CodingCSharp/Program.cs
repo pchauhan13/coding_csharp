@@ -22,14 +22,23 @@ namespace CodingCSharp
             //Console.WriteLine(cube(5));
 
             bool isMale = true;
+            bool isTall = false;
 
-            if (isMale)
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male.");
+            }
+            else if (isMale)
             {
                 Console.WriteLine("You are a male.");
             }
+            else if (isTall)
+            {
+                Console.WriteLine("You are tall.");
+            }
             else
             {
-                Console.WriteLine("You are not a male.");
+                Console.WriteLine("You are niether tall nor a male.");
             }
         }
 
