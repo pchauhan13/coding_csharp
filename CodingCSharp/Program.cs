@@ -41,7 +41,23 @@ namespace CodingCSharp
             //    Console.WriteLine("You are niether tall nor a male.");
             //}
 
-            Console.WriteLine(GetMax(5, 3));
+            //Console.WriteLine(GetMax(5, 3));
+
+            Console.WriteLine("Please enter a day of week:");
+            var day = Console.ReadLine();
+
+            switch (day)
+            {
+                case "Sunday":
+                    Console.WriteLine("It's a holiday.");
+                    break;
+                case "Saturday":
+                    Console.WriteLine("It's a weekend.");
+                    break;
+                default:
+                    Console.WriteLine("It's a work day.");
+                    break;
+            }
         }
 
         static int GetMax(int num1, int num2)
