@@ -98,6 +98,10 @@ namespace CodingCSharp
             {
                 Console.WriteLine("Error: " + e.Message);
             }
+            finally
+            {
+                Console.WriteLine("Done!");
+            }
         }
 
         static int GetMax(int num1, int num2)
