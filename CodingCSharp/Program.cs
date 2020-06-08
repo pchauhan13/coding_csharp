@@ -81,12 +81,19 @@ namespace CodingCSharp
 
             //Console.WriteLine(numberGrid[1, 1]);
 
-            Console.WriteLine("Enter a number:");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter another number:");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Enter a number:");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter another number:");
+                int num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(num1 / num2);
+                Console.WriteLine(num1 / num2);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
         }
 
         static int GetMax(int num1, int num2)
